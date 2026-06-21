@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github__get_me",
+      "mcp__github__search_repositories",
+      "mcp__github__list_issues",
+      "WebFetch(domain:github.com)",
+      "Bash(docker --version)",
+      "Bash(gh --version)",
+      "mcp__github__get_file_contents",
+      "mcp__github__sub_issue_write",
+      "Bash(command -v uv)",
+      "Bash(uv tool *)",
+      "Bash(pip3 install *)",
+      "Bash(curl -s https://pypi.org/pypi/graphify/json)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('info',{}\\).get\\('name'\\)\\); print\\('Summary:', d.get\\('info',{}\\).get\\('summary'\\)[:100] if d.get\\('info'\\) else 'N/A'\\)\")",
+      "Bash(curl -s https://pypi.org/search?q=knowledge+graph)",
+      "Bash(curl -s \"https://pypi.org/pypi/graphifyy/json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Name:', d.get\\('info',{}\\).get\\('name'\\)\\); print\\('Version:', d.get\\('info',{}\\).get\\('version'\\)\\); print\\('Summary:', d.get\\('info',{}\\).get\\('summary'\\)[:150] if d.get\\('info'\\) else 'N/A'\\)\")",
+      "Bash(python3.11 --version)",
+      "Bash(python3.12 --version)",
+      "Bash(python3.10 --version)",
+      "Bash(python3.12 -m pip install graphifyy -q)",
+      "Bash(python3.12 -m pip install graphifyy --break-system-packages -q)",
+      "Bash(graphify *)",
+      "Bash(python3.12 *)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(.venv/bin/python *)",
+      "Bash(python3 -m venv /Users/rezwan/Downloads/project1/RAG/.venv)",
+      "Bash(python3)",
+      "Bash(python3 *)",
+      "Bash(open http://localhost:8000)",
+      "Bash(open *)",
+      "Bash(rm /Users/rezwan/Downloads/project1/RAG/ingest.py)",
+      "Bash(rm /Users/rezwan/Downloads/project1/RAG/search.py)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(git reset *)"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "research_papers": [
+    {
+      "title": "Attention Is All You Need",
+      "authors": ["Vaswani", "Shazeer", "Parmar"],
+      "year": 2017,
+      "venue": "NeurIPS",
+      "summary": "Introduces the transformer architecture"
+    },
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "authors": ["Devlin", "Chang", "Lee", "Toutanova"],
+      "year": 2019,
+      "venue": "NAACL",
+      "summary": "Presents BERT for language understanding"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "GLUE",
+      "type": "benchmark",
+      "description": "General Language Understanding Evaluation"
+    },
+    {
+      "name": "SQuAD",
+      "type": "question-answering",
+      "description": "Stanford Question Answering Dataset"
+    }
+  ]
+}

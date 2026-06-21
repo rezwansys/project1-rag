@@ -1,0 +1,32 @@
+{
+  "project_name": "RAG System Configuration",
+  "version": "1.0.0",
+  "settings": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "top_k_results": 5,
+    "similarity_threshold": 0.75,
+    "batch_size": 32
+  },
+  "database": {
+    "type": "chromadb",
+    "persist_directory": "./RAG/doc",
+    "collection_name": "documents"
+  },
+  "indexes": [
+    {
+      "name": "ml_concepts",
+      "description": "Machine learning terminology and concepts",
+      "tags": ["machine-learning", "ai", "algorithms"]
+    },
+    {
+      "name": "deep_learning",
+      "description": "Deep learning and neural networks",
+      "tags": ["deep-learning", "neural-networks", "tensorflow"]
+    },
+    {
+      "name": "nlp_topics",
+      "description": "Natural language processing topics",
+      "tags": ["nlp", "transformers", "text-processing"]
+    }
+  ]
+}
